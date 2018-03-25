@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "225997033846",
+    "firebase_url": "https://learn-french-8c806.firebaseio.com",
+    "project_id": "learn-french-8c806",
+    "storage_bucket": "learn-french-8c806.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:225997033846:android:6e8ae604005fd4fd",
+        "android_client_info": {
+          "package_name": "org.learn.dellse.learnfrench"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "225997033846-48sgknlpdh73m816sqjrnm3c2bedu5l4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAeCm7InQ3x4gz8S0PGXRWc1omCKs_dcCM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

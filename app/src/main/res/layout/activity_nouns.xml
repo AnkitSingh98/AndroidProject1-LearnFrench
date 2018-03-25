@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="false">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="org.learn.dellse.learnfrench.nouns">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/my_recycler_view3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"/>
+
+    <Button
+        android:layout_width="185dp"
+        android:layout_height="wrap_content"
+        android:text="Commonly Used Nouns"
+        android:id="@+id/button"
+        android:background="#5864bb"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="80dp"
+        android:layout_marginBottom="20dp"
+        android:textColor="#d1cbcb"
+        android:onClick="noun" />
+</LinearLayout>
+</ScrollView>

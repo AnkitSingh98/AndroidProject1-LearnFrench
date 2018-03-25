@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="org.learn.dellse.learnfrench.Score"
+    android:background="#ffffff">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Your  Score"
+        android:id="@+id/textView48"
+        android:layout_marginLeft="115dp"
+        android:layout_marginTop="70dp"
+        android:textSize="25sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="0"
+        android:id="@+id/textView49"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="20dp"
+        android:textSize="90dp"
+        android:textColor="#f73721" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text"
+        android:id="@+id/textView50"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="30dp" />
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:id="@+id/imageView"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="120dp"
+        android:src="@drawable/again"
+        android:onClick="again" />
+</LinearLayout>

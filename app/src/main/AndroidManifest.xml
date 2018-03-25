@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.ankithacks.learnfrench"
+    android:versionCode="2"
+    android:versionName="1.1"
+    >
+
+
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="org.learn.dellse.learnfrench.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="org.learn.dellse.learnfrench.francophone"
+            android:label="Francophone Countries" />
+        <activity
+            android:name="org.learn.dellse.learnfrench.numbers"
+            android:label="Numbers" />
+        <activity
+            android:name="org.learn.dellse.learnfrench.Grammer"
+            android:label="Grammer" />
+        <activity
+            android:name="org.learn.dellse.learnfrench.expressions"
+            android:label="French Expressions" />
+        <activity
+            android:name="org.learn.dellse.learnfrench.nouns"
+            android:label="Noun" />
+        <activity
+            android:name="org.learn.dellse.learnfrench.CommonNouns"
+            android:label="Commonly Used Nouns" />
+        <activity
+            android:name="org.learn.dellse.learnfrench.articles"
+            android:label="Articles" />
+        <activity
+            android:name="org.learn.dellse.learnfrench.articlesExercises"
+            android:label="Articles Exercise" />
+        <activity
+            android:name="org.learn.dellse.learnfrench.verbs"
+            android:label="Verbs" />
+        <activity
+            android:name="org.learn.dellse.learnfrench.VerbConjugation"
+            android:label="Verb Conjugation" />
+        <activity
+            android:name="org.learn.dellse.learnfrench.Pronoun"
+            android:label="Pronoun" />
+        <activity
+            android:name="org.learn.dellse.learnfrench.Preposition"
+            android:label="Preposition" />
+        <activity
+            android:name="org.learn.dellse.learnfrench.Adjective"
+            android:label="Adjective Possesive" />
+        <activity
+            android:name="org.learn.dellse.learnfrench.Negative"
+            android:label="Negative Sentences" />
+        <activity
+            android:name="org.learn.dellse.learnfrench.prepositionExercises"
+            android:label="Preposition Exercise" />
+        <activity
+            android:name="org.learn.dellse.learnfrench.quiz"
+            android:label="Learn French- Quiz" />
+        <activity
+            android:name="org.learn.dellse.learnfrench.Score"
+            android:label="Quiz - Results" />
+        <activity
+            android:name="org.learn.dellse.learnfrench.frenchNumbers"
+            android:label="Numbers in French" />
+    </application>
+
+</manifest>
